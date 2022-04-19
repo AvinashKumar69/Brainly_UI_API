@@ -8,7 +8,7 @@ const TextBookSection = () => {
                 <div className="container px-5 py-10 mx-auto">
                     <div className="flex flex-col text-center w-full mb-20">
                         <h3 className="sm:text-lg text-lg font-bold title-font mb-4 text-black">NEW ON BRAINLY</h3>
-                        <h1 className="title-font mb-4 text-black font-black lg:text-5xl sm:text-4xl xs:text-2xl">
+                        <h1 className="title-font mb-4 text-black font-black lg:text-5xl md:text-5xl sm:text-4xl xs:text-2xl">
                             Discover more with Textbook Solutions
                         </h1>
                         <p className="lg:w-full mx-auto leading-relaxed text-xl">Here you can find step by step solutions to the problems in your textbook, created by experts.</p>

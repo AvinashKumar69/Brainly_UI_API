@@ -22,9 +22,9 @@ const Home = () => {
 
             <RatingReviewSection />
 
-            {/* <BottomSection /> */}
+            <BottomSection />
 
-            {/* <BottomStrip /> */}
+            <BottomStrip />
 
             {/* <Footer /> */}
         </div>
