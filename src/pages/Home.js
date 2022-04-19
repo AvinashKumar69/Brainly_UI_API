@@ -20,7 +20,7 @@ const Home = () => {
 
             <TextBookSection />
 
-            {/* <RatingReviewSection /> */}
+            <RatingReviewSection />
 
             {/* <BottomSection /> */}
 
