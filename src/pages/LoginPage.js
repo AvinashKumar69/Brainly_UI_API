@@ -5,15 +5,15 @@ import { NavLink } from 'react-router-dom';
 const LoginPage = () => {
     return (
         <section className="text-black barlow-b">
-            <div className="px-5 py-5 mx-auto flex flex-wrap items-center">
-                <div className="lg:w-2/5 md:w-1/2 md:pr-0 md:text-center lg:pr-0 pr-0 mx-auto">
+            <div className="px-5 py-5 mx-auto flex flex-wrap">
+
+                <div className="lg:w-2/5 md:w-1/2 md:pr-0 md:text-center lg:pr-0 pr-0 mx-auto lg:flex lg:items-start">
                     <h1 className="title-font font-black text-5xl sm:text-4xl xs:text-2xl xs:text-center"
                         style={{ color: 'rgb(143 211 255)' }}
                     >
                         LET'S START SHARING <br className="hidden lg:inline-block" /> KNOWLEDGE
                     </h1>
                 </div>
-
 
                 <div className="divide-y-2 divide-solid lg:w-2/6 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto mx-auto w-full mt-10 md:mt-0">
                     <div className='flex flex-col'>
@@ -22,11 +22,11 @@ const LoginPage = () => {
                             <i style={{ color: 'red' }} className="bi bi-google pr-5"></i>
                             LOG IN WITH GOOGLE
                         </button>
-                        <button className="w-full text-white bg-black border-2 py-2 px-2 mb-5 focus:outline-none hover:bg-gray-100 rounded-full text-lg font-medium">
+                        <button className="w-full text-white bg-black border-2 py-2 px-2 mb-5 focus:outline-none hover:bg-gray-800 rounded-full text-lg font-medium">
                             <i style={{ color: 'white' }} className="bi bi-apple pr-5"></i>
                             LOG IN WITH APPLE
                         </button>
-                        <button className="w-full text-black bg-sky-600 border-2 py-2 px-2 mb-5 focus:outline-none hover:bg-gray-100 rounded-full text-lg font-medium">
+                        <button className="w-full text-black bg-sky-600 border-2 py-2 px-2 mb-5 focus:outline-none hover:bg-sky-700 rounded-full text-lg font-medium">
                             <i style={{ color: 'white' }} className="bi bi-facebook pr-5"></i>
                             LOG IN WITH FACEBOOK
                         </button>
@@ -51,6 +51,7 @@ const LoginPage = () => {
                         </p>
                     </div>
                 </div>
+
             </div>
         </section>
     )

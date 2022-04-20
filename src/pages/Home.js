@@ -1,6 +1,7 @@
 import React from 'react';
 import BottomSection from '../components/BottomSection';
 import BottomStrip from '../components/BottomStrip';
+import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
 import RatingReviewSection from '../components/RatingReviewSection';
 import SubjectCarousel from '../components/SubjectCarousel';
@@ -15,6 +16,7 @@ const Home = () => {
             <RatingReviewSection />
             <BottomSection />
             <BottomStrip />
+            <Footer />
         </div>
     )
 }

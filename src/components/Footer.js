@@ -6,7 +6,7 @@ import appStoreBadge from '../assets/appStoreBadge.svg';
 
 const Footer = () => {
     return (
-        <footer className="text-black barlow-b overflow-x-hidden">
+        <footer className="text-black barlow-b overflow-x-hidden border-t-1 border-sky-300">
             <div className="px-5 py-5 mx-auto flex md:items-center lg:items-start lg:flex-row md:flex-row flex-wrap flex-col">
                 <div className="w-64 flex-shrink-0 lg:mx-5 md:mx-auto md:mb-10 sm:mb-10 mx-auto text-left md:text-left xs:mb-10">
                     <a className="flex flex-col title-font font-medium items-left md:justify-start justify-center">

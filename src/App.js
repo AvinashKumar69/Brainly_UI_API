@@ -17,7 +17,7 @@ function App() {
         <Route exact path='/joinnowpage' element={<JoinNowPage />} />
         <Route exact path='/askquestion' element={<AskQuestion />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
