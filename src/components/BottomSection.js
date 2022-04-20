@@ -3,7 +3,7 @@ import React from 'react';
 const BottomSection = () => {
     return (
         <section className="text-gray-600 body-font overflow-hidden">
-            <div className="px-5 py-24 mx-20">
+            <div className="px-5 py-24 mx-20 xs:px-5 mx-5">
 
                 <div className="flex flex-col text-center w-full mb-20">
                     <p className="lg:w-full mx-auto leading-relaxed text-xl">
