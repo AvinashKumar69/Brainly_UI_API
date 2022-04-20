@@ -26,7 +26,7 @@ const Home = () => {
 
             <BottomStrip />
 
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }
