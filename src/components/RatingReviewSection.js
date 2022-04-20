@@ -8,7 +8,7 @@ import '../styles/RatingReviewSection.css';
 const RatingReviewSection = () => {
     return (
         <>
-            <div className="flex flex-col text-center w-full mb-20 mt-20">
+            <div className="flex flex-col text-center w-full mb-20 mt-20 barlow-b">
                 <h1 className="title-font mb-4 text-black font-black lg:text-5xl md:text-5xl sm:text-4xl xs:text-2xl">
                     Ruled by students, supported by parents
                 </h1>

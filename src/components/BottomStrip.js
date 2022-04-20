@@ -2,7 +2,7 @@ import React from 'react';
 
 const BottomStrip = () => {
     return (
-        <section className="text-black body-font overflow-hidden"
+        <section className="text-black barlow-b overflow-hidden"
             style={{ backgroundColor: '#d9f0ff' }}
         >
             <div className="px-5 py-5 mx-20 xs:px-5 mx-5">

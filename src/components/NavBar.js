@@ -7,7 +7,7 @@ const NavBar = () => {
 
     return (
         <>
-            <header className="text-gray-600 body-font"
+            <header className="text-gray-600 barlow-b"
                 style={{ backgroundColor: '#d9f0ff' }}
             >
                 <div className="mx-auto flex flex-wrap p-5 flex-row lg:mr-20 md:mr-20 sm:mr-10 xs:mx-auto flex flex-wrap flex-row">

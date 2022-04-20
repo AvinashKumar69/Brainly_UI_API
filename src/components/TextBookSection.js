@@ -4,7 +4,7 @@ import React from 'react';
 const TextBookSection = () => {
     return (
         <>
-            <section className="text-gray-600 body-font">
+            <section className="text-gray-600 barlow-b">
                 <div className="container px-5 py-10 mx-auto">
                     <div className="flex flex-col text-center w-full mb-20">
                         <h3 className="sm:text-lg text-lg font-bold title-font mb-4 text-black">NEW ON BRAINLY</h3>

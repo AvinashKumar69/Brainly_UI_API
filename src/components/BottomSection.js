@@ -2,14 +2,14 @@ import React from 'react';
 
 const BottomSection = () => {
     return (
-        <section className="text-gray-600 body-font overflow-hidden">
+        <section className="text-gray-600 barlow-b overflow-hidden">
             <div className="px-5 py-24 mx-20 xs:px-5 mx-5">
 
                 <div className="flex flex-col text-center w-full mb-20">
                     <p className="lg:w-full mx-auto leading-relaxed text-xl">
                         <i style={{ color: 'green' }} className="bi bi-patch-check-fill"></i>
                     </p>
-                    <h1 className="title-font mb-4 text-black font-black lg:text-5xl md:text-5xl sm:text-4xl xs:text-2xl">
+                    <h1 className="title-font mb-4 text-black font-black lg:w-3/5 md:w-4/5 md:mx-auto lg:mx-auto lg:text-4xl md:text-4xl sm:text-3xl xs:text-xl">
                         Tap into the brainpower of thousands of experts worldwide
                     </h1>
                 </div>

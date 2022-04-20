@@ -6,7 +6,7 @@ import { SearchIcon } from '@heroicons/react/outline';
 
 const HeroSection = () => {
     return (
-        <section className="text-gray-600 body-font"
+        <section className="text-gray-600 barlow-b"
             style={{ backgroundColor: '#d9f0ff' }}
         >
             <div className="mx-auto flex px-5 py-auto lg:flex-row flex-col items-center md:flex-row flex-col items-center sm:flex-row flex-col items-center xs:flex-row flex-col items-center mx-auto px-auto">
