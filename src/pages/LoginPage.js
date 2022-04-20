@@ -7,7 +7,7 @@ const LoginPage = () => {
         <section className="text-black barlow-b">
             <div className="px-5 py-5 mx-auto flex flex-wrap">
 
-                <div className="lg:w-2/5 md:w-1/2 md:pr-0 md:text-center lg:pr-0 pr-0 mx-auto lg:flex lg:items-start">
+            <div className="lg:w-2/5 md:w-1/2 md:pr-0 md:text-center lg:pr-0 pr-0 mx-auto lg:flex lg:items-start">
                     <h1 className="title-font font-black text-5xl sm:text-4xl xs:text-2xl xs:text-center"
                         style={{ color: 'rgb(143 211 255)' }}
                     >
@@ -15,7 +15,7 @@ const LoginPage = () => {
                     </h1>
                 </div>
 
-                <div className="divide-y-2 divide-solid lg:w-2/6 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto mx-auto w-full mt-10 md:mt-0">
+                <div className="divide-y-2 divide-solid lg:w-2/6 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto mx-auto w-full pt-0 md:mt-0">
                     <div className='flex flex-col'>
                         <h2 className="text-black text-xl font-bold title-font mb-5 mx-auto xs:text-center">Welcome back, Log In to your Account!</h2>
                         <button className="w-full text-black bg-white border-2 py-2 px-2 mb-5 mt-5 focus:outline-none hover:bg-gray-100 rounded-full text-lg font-medium">
