@@ -7,7 +7,7 @@ const LoginPage = () => {
         <section className="text-black barlow-b">
             <div className="px-5 py-5 mx-auto flex flex-wrap">
 
-            <div className="lg:w-2/5 md:w-1/2 md:pr-0 md:text-center lg:pr-0 pr-0 mx-auto lg:flex lg:items-start">
+                <div className="lg:w-2/5 md:w-1/2 md:pr-0 md:text-center lg:pr-0 pr-0 mx-auto lg:flex lg:items-start">
                     <h1 className="title-font font-black text-5xl sm:text-4xl xs:text-2xl xs:text-center"
                         style={{ color: 'rgb(143 211 255)' }}
                     >
@@ -39,9 +39,11 @@ const LoginPage = () => {
                             <input type="autocomplete" id="password" name="password" placeholder='Enter password' className="w-full bg-gray-100 rounded-full border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                         </div>
                         <div className='flex flex-row items-center justify-between'>
-                            <button className="xs:text-xs w-28 text-white bg-sky-400 border-0 py-2 px-2 focus:outline-none hover:bg-sky-600 rounded-full text-lg font-medium">
-                                LOG IN
-                            </button>
+                            <NavLink to='/'>
+                                <button className="xs:text-xs w-28 text-white bg-sky-400 border-0 py-2 px-2 focus:outline-none hover:bg-sky-600 rounded-full text-lg font-medium">
+                                    LOG IN
+                                </button>
+                            </NavLink>
                             <button className="xs:text-xs w-56 text-white bg-sky-400 border-0 py-2 px-2 focus:outline-none hover:bg-sky-600 rounded-full text-lg font-medium">
                                 FORGET PASSWORD
                             </button>
