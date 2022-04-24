@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 
 const AskQuestion = () => {
@@ -40,11 +41,13 @@ const AskQuestion = () => {
                             </div>
                         </div>
                     </div>
-                    <button className="w-fit text-white border-0 py-2 px-4 mt-2 focus:outline-none rounded-full font-bold text-sm"
-                        style={{ backgroundColor: '#4fb3f6' }}
-                    >
-                        ASK YOUR QUESTION
-                    </button>
+                    <NavLink to='/LoggedinHomePage'>
+                        <button className="w-fit text-white border-0 py-2 px-4 mt-2 focus:outline-none rounded-full font-bold text-sm"
+                            style={{ backgroundColor: '#4fb3f6' }}
+                        >
+                            ASK YOUR QUESTION
+                        </button>
+                    </NavLink>
                 </div>
 
                 <div className="lg:w-1/5 md:w-1/2 md:pl-5 lg:pl-5 pr-0 sm:mt-5 sm:text-center xs:text-center xs:mt-5">
