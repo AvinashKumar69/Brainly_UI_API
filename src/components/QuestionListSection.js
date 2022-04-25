@@ -8,7 +8,7 @@ import QuestionListCard from './QuestionListCard';
 const QuestionListSection = () => {
     return (
         <section className="text-black barlow-b border-2 rounded-lg mt-2 xs:border-none">
-            <div className=" px-5 py-24 mx-auto xs:mx-0">
+            <div className=" px-5 py-5 mx-auto xs:mx-0">
 
                 <div className='flex flex-col ml-5'>
                     <div className='flex flex-row mb-5'>
@@ -18,7 +18,7 @@ const QuestionListSection = () => {
                         </p>
                     </div>
                     <div className="text-start w-full mb-12">
-                        <h1 className="text-5xl font-black title-font mb-4">
+                        <h1 className="text-5xl font-black title-font mb-4 xs:text-3xl">
                             What do you need to know?
                         </h1>
                     </div>

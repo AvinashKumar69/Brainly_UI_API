@@ -3,9 +3,11 @@ import React from 'react';
 const UserProgressBar = () => {
     return (
         <section className="text-black barlow-b border-2 rounded-lg ml-5 mt-2">
-            <div className="container px-5 py-24 mx-auto flex flex-col divide-y-2 divide-gray-100">
-                <div className=''>
-                    
+            <div className="container px-5 py-5 mx-auto flex flex-col divide-y-2 divide-gray-100">
+                <div className='flex items-center'>
+                    <img src='https://static.vecteezy.com/system/resources/previews/002/318/271/original/user-profile-icon-free-vector.jpg'
+                        className='h-32 w-40 mx-auto'
+                    />
                 </div>
                 <div className="flex relative pt-5 pb-5 sm:items-center w-2/3 mx-auto">
                     <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
